@@ -19,7 +19,7 @@ class ExampleUnitTest {
     @Test
     fun message_isCorrect() {
         val actualMessage = "Message"
-        val expectedMessage = "Message"
+        val expectedMessage = "Messages"
         assertThat(actualMessage, _is(expectedMessage))
     }
 }
