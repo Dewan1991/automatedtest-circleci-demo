@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black">#2A2A30</color>
+    <color name="blue">#0645AD</color>
+    <color name="grey">#BBBCCD</color>
+    <color name="light_grey">#FFDDDDDD</color>
+    <color name="pink">#F3647B</color>
+    <color name="light_pink">#FB9CA8</color>
+    <color name="white">#ffffff</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="transparent_black">#00000000</color>
+    <color name="transparent_grey">#a0bbc7cd</color>
+
+    <!-- Material Color -->
+    <color name="colorTextPrimary">#2A2A30</color>
+    <color name="colorTextSecondary">#BBBCCD</color>
+    <color name="colorHintText">#F3647B</color>
+    <color name="colorControlDisabled">#ffffff</color>
+    <color name="colorRipple">#F3647B</color>
+    <color name="colorDivider">#BBBCCD</color>
+
+    <!-- Default -->
+    <color name="card_bg">#FFFFFFFF</color>
+    <color name="default_widget_bg">#60000000</color>
+    <color name="item_pressed_overlay">#40FFFFFF</color>
+    <color name="item_pressed_bg">#33999999</color>
+    <color name="news_placeholder_bg">#FFA0A0A0</color>
+    <color name="background_color_default">#FAFAFA</color>
+
+    <color name="green">#00C300</color>
+    <color name="dark_green">#00B300</color>
+</resources>
