@@ -41,6 +41,12 @@ android {
             proguardFile 'proguard-rules.pro'
         }
     }
+    testOptions.unitTests.all {
+        testLogging {
+            events "passed", "skipped", "failed"
+            exceptionFormat "full"
+        }
+    }
 }
 
 dependencies {
