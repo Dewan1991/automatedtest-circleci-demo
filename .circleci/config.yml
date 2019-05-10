@@ -21,9 +21,9 @@ jobs:
           key: jars-{{ checksum "build.gradle" }}-{{ checksum  "app/build.gradle" }}
           paths:
             - ~/.gradle
-      #- run:
-          #name: Build Application
-          #command: ./gradlew clean assembleDebug
+      - run:
+          name: Build Application
+          command: ./gradlew clean assembleDebug
       - run:
           name: Run Tests
           command: ./gradlew lint test
