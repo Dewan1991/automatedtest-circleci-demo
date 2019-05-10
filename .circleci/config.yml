@@ -27,14 +27,3 @@ jobs:
       - run:
           name: Run Tests
           command: ./gradlew lint test
-      - store_artifacts:
-          name: Upload Artifacts Reports
-          path: app/build/reports
-          destination: reports
-      - store_artifacts:
-          name: Upload Artifacts Reports
-          path: app/build/test-results
-      - store_artifacts:
-          name: Upload Artifacts File APK
-          path: app/build/outputs/apk
-          destination: apk
